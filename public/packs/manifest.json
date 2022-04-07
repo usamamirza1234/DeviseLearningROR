@@ -1,14 +1,82 @@
 {
-  "application.js": "/packs/js/application-3dd0dc24d9c39bc09227.js",
-  "application.js.map": "/packs/js/application-3dd0dc24d9c39bc09227.js.map",
+  "admin.js": "/packs/js/admin-40a137d75c57653843e5.js",
+  "admin.js.map": "/packs/js/admin-40a137d75c57653843e5.js.map",
+  "application.js": "/packs/js/application-9e38fe725b7e71b7f9be.js",
+  "application.js.map": "/packs/js/application-9e38fe725b7e71b7f9be.js.map",
   "entrypoints": {
-    "application": {
+    "admin": {
       "js": [
-        "/packs/js/application-3dd0dc24d9c39bc09227.js"
+        "/packs/js/admin-40a137d75c57653843e5.js"
       ],
       "js.map": [
-        "/packs/js/application-3dd0dc24d9c39bc09227.js.map"
+        "/packs/js/admin-40a137d75c57653843e5.js.map"
+      ]
+    },
+    "application": {
+      "js": [
+        "/packs/js/application-9e38fe725b7e71b7f9be.js"
+      ],
+      "js.map": [
+        "/packs/js/application-9e38fe725b7e71b7f9be.js.map"
+      ]
+    },
+    "plugins/chart-area-demo": {
+      "js": [
+        "/packs/js/plugins/chart-area-demo-01e258b32f5f1d509c65.js"
+      ],
+      "js.map": [
+        "/packs/js/plugins/chart-area-demo-01e258b32f5f1d509c65.js.map"
+      ]
+    },
+    "plugins/chart-pie-demo": {
+      "js": [
+        "/packs/js/plugins/chart-pie-demo-8a71d48da91bc769833b.js"
+      ],
+      "js.map": [
+        "/packs/js/plugins/chart-pie-demo-8a71d48da91bc769833b.js.map"
+      ]
+    },
+    "plugins/Chart": {
+      "js": [
+        "/packs/js/plugins/Chart-70fac0058e7fcffc9e04.js"
+      ],
+      "js.map": [
+        "/packs/js/plugins/Chart-70fac0058e7fcffc9e04.js.map"
+      ]
+    },
+    "plugins/jquery": {
+      "js": [
+        "/packs/js/plugins/jquery-c900d5edd97824629868.js"
+      ],
+      "js.map": [
+        "/packs/js/plugins/jquery-c900d5edd97824629868.js.map"
+      ]
+    },
+    "plugins/sb-admin-2": {
+      "js": [
+        "/packs/js/plugins/sb-admin-2-7af3b7c4903190276236.js"
+      ],
+      "js.map": [
+        "/packs/js/plugins/sb-admin-2-7af3b7c4903190276236.js.map"
       ]
     }
-  }
+  },
+  "media/webfonts/fa-brands-400.ttf": "/packs/media/webfonts/fa-brands-400-b823fc0d.ttf",
+  "media/webfonts/fa-brands-400.woff2": "/packs/media/webfonts/fa-brands-400-ebb7a127.woff2",
+  "media/webfonts/fa-regular-400.ttf": "/packs/media/webfonts/fa-regular-400-0d03b1bb.ttf",
+  "media/webfonts/fa-regular-400.woff2": "/packs/media/webfonts/fa-regular-400-0caf4c6c.woff2",
+  "media/webfonts/fa-solid-900.ttf": "/packs/media/webfonts/fa-solid-900-e615bbcb.ttf",
+  "media/webfonts/fa-solid-900.woff2": "/packs/media/webfonts/fa-solid-900-59edf72a.woff2",
+  "media/webfonts/fa-v4compatibility.ttf": "/packs/media/webfonts/fa-v4compatibility-4baccb54.ttf",
+  "media/webfonts/fa-v4compatibility.woff2": "/packs/media/webfonts/fa-v4compatibility-afac8956.woff2",
+  "plugins/Chart.js": "/packs/js/plugins/Chart-70fac0058e7fcffc9e04.js",
+  "plugins/Chart.js.map": "/packs/js/plugins/Chart-70fac0058e7fcffc9e04.js.map",
+  "plugins/chart-area-demo.js": "/packs/js/plugins/chart-area-demo-01e258b32f5f1d509c65.js",
+  "plugins/chart-area-demo.js.map": "/packs/js/plugins/chart-area-demo-01e258b32f5f1d509c65.js.map",
+  "plugins/chart-pie-demo.js": "/packs/js/plugins/chart-pie-demo-8a71d48da91bc769833b.js",
+  "plugins/chart-pie-demo.js.map": "/packs/js/plugins/chart-pie-demo-8a71d48da91bc769833b.js.map",
+  "plugins/jquery.js": "/packs/js/plugins/jquery-c900d5edd97824629868.js",
+  "plugins/jquery.js.map": "/packs/js/plugins/jquery-c900d5edd97824629868.js.map",
+  "plugins/sb-admin-2.js": "/packs/js/plugins/sb-admin-2-7af3b7c4903190276236.js",
+  "plugins/sb-admin-2.js.map": "/packs/js/plugins/sb-admin-2-7af3b7c4903190276236.js.map"
 }

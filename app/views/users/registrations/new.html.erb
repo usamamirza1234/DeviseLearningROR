@@ -1,61 +1,52 @@
-<div class="col-lg-6 mx-lg-auto">
-  <div class="card shadow">
-    <div class="card-header text-center">
-      <h2>Sign up</h2>
-    </div>
-    <div class="card-body">
-      <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
-        <%= render "users/shared/error_messages", resource: resource %>
+<div class="bg-gradient-primary">
+  <div class="container">
+    <div class="card o-hidden border-0 shadow-lg my-5">
+      <div class="card-body p-0">
+        <div class="row">
+          <div class="col-lg-5 d-none d-lg-block bg-register-image"></div>
+          <div class="col-lg-7">
+            <div class="p-5">
+              <div class="text-center">
+                <h1 class="h4 text-gray-900 mb-4">Create an Account!</h1>
+              </div>
+              <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { class: 'user' }) do |f| %>
+                <%= render "users/shared/error_messages", resource: resource %>
 
-        <div class="form-group  mb-2">
-          <%= f.label :first_name, class: 'mb-2'  %>
-          <%= f.text_field :first_name, class: 'form-control form-control-lg' %>
+                <div class="form-group row">
+                  <div class="col-sm-6 mb-3 mb-sm-0">
+                    <%= f.text_field :first_name, class: 'form-control form-control-user', id: "exampleFirstName", placeholder: "First Name" %>
+                  </div>
+                  <div class="col-sm-6">
+                    <%= f.text_field :last_name, class: 'form-control form-control-user', id: "exampleLastName", placeholder: "Last Name" %>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <%= f.text_field :username, class: 'form-control form-control-user', id: "exampleUserName", placeholder: "User Name" %>
+                </div>
+                <div class="form-group">
+                  <%= f.email_field :last_name, class: 'form-control form-control-user', id: "exampleInputEmail", placeholder: "Email Address" %>
+                </div>
+                <div class="form-group row">
+                  <div class="col-sm-6 mb-3 mb-sm-0">
+                    <%= f.password_field :password, class: 'form-control form-control-user', id: "exampleInputPassword", placeholder: "Password" %>
+                  </div>
+                  <div class="col-sm-6">
+                    <%= f.password_field :password_confirmation, class: 'form-control form-control-user', id: "exampleRepeatPassword", placeholder: "Repeat Password" %>
+                  </div>
+                </div>
+                <div class="form-group  mb-2">
+                  <%= f.label :contact_number, class: 'mb-2' %>
+                  <%= f.text_field :contact_number, class: 'form-control form-control-lg' %>
+                </div>
+                <div class="actions  mt-4">
+                  <%= f.submit "Sign up", class: 'btn btn-primary' %>
+                </div>
+              <% end %>
+              <%= render "users/shared/links" %>
+            </div>
+          </div>
         </div>
-        <div class="form-group  mb-2">
-          <%= f.label :last_name, class: 'mb-2'  %>
-          <%= f.text_field :last_name, class: 'form-control form-control-lg' %>
-        </div>
-        <div class="form-group  mb-2">
-          <%= f.label :contact_number, class: 'mb-2'  %>
-          <%= f.text_field :contact_number, class: 'form-control form-control-lg' %>
-        </div>
-        <div class="form-group  mb-2">
-          <%= f.label :username, class: 'mb-2'  %>
-          <%= f.text_field :username, class: 'form-control form-control-lg' %>
-        </div>
-
-        <div class="form-group  mb-2">
-          <%= f.label :email, class: 'mb-2'  %>
-          <%= f.email_field :email, autofocus: true, autocomplete: "email" , class: 'form-control form-control-lg' %>
-        </div>
-
-        <div class="form-group  mb-2">
-          <%= f.label :password, class: 'mb-2'  %>
-          <% if @minimum_password_length %>
-            <em>(<%= @minimum_password_length %> characters minimum)</em>
-          <% end %><br />
-          <%= f.password_field :password, autocomplete: "new-password", class: 'form-control form-control-lg' %>
-        </div>
-
-        <div class="form-group  mb-2">
-          <%= f.label :password_confirmation, class: 'mb-2'  %>
-          <%= f.password_field :password_confirmation, autocomplete: "new-password", class: 'form-control form-control-lg' %>
-        </div>
-
-        <div class="form-group  mb-2">
-          <%= f.label :address, class: 'mb-2'  %>
-          <%= f.text_field :address, class: 'form-control form-control-lg' %>
-        </div>
-
-
-
-        <div class="actions  mt-4">
-          <%= f.submit "Sign up" , class: 'btn btn-primary'%>
-        </div>
-      <% end %>
-    </div>
-    <div class="card-footer">
-      <%= render "users/shared/links" %>
+      </div>
     </div>
   </div>
 </div>
