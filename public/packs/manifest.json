@@ -1,63 +1,63 @@
 {
-  "admin.js": "/packs/js/admin-40a137d75c57653843e5.js",
-  "admin.js.map": "/packs/js/admin-40a137d75c57653843e5.js.map",
-  "application.js": "/packs/js/application-9e38fe725b7e71b7f9be.js",
-  "application.js.map": "/packs/js/application-9e38fe725b7e71b7f9be.js.map",
+  "admin.js": "/packs/js/admin-3bdb4ba207b934c2c371.js",
+  "admin.js.map": "/packs/js/admin-3bdb4ba207b934c2c371.js.map",
+  "application.js": "/packs/js/application-2a9b87b723fe475b04ad.js",
+  "application.js.map": "/packs/js/application-2a9b87b723fe475b04ad.js.map",
   "entrypoints": {
     "admin": {
       "js": [
-        "/packs/js/admin-40a137d75c57653843e5.js"
+        "/packs/js/admin-3bdb4ba207b934c2c371.js"
       ],
       "js.map": [
-        "/packs/js/admin-40a137d75c57653843e5.js.map"
+        "/packs/js/admin-3bdb4ba207b934c2c371.js.map"
       ]
     },
     "application": {
       "js": [
-        "/packs/js/application-9e38fe725b7e71b7f9be.js"
+        "/packs/js/application-2a9b87b723fe475b04ad.js"
       ],
       "js.map": [
-        "/packs/js/application-9e38fe725b7e71b7f9be.js.map"
+        "/packs/js/application-2a9b87b723fe475b04ad.js.map"
       ]
     },
     "plugins/chart-area-demo": {
       "js": [
-        "/packs/js/plugins/chart-area-demo-01e258b32f5f1d509c65.js"
+        "/packs/js/plugins/chart-area-demo-e9519146858230b23116.js"
       ],
       "js.map": [
-        "/packs/js/plugins/chart-area-demo-01e258b32f5f1d509c65.js.map"
+        "/packs/js/plugins/chart-area-demo-e9519146858230b23116.js.map"
       ]
     },
     "plugins/chart-pie-demo": {
       "js": [
-        "/packs/js/plugins/chart-pie-demo-8a71d48da91bc769833b.js"
+        "/packs/js/plugins/chart-pie-demo-9d0c671b6d031413e42b.js"
       ],
       "js.map": [
-        "/packs/js/plugins/chart-pie-demo-8a71d48da91bc769833b.js.map"
+        "/packs/js/plugins/chart-pie-demo-9d0c671b6d031413e42b.js.map"
       ]
     },
     "plugins/Chart": {
       "js": [
-        "/packs/js/plugins/Chart-70fac0058e7fcffc9e04.js"
+        "/packs/js/plugins/Chart-e3aca98fbcaf4473ccc4.js"
       ],
       "js.map": [
-        "/packs/js/plugins/Chart-70fac0058e7fcffc9e04.js.map"
+        "/packs/js/plugins/Chart-e3aca98fbcaf4473ccc4.js.map"
       ]
     },
     "plugins/jquery": {
       "js": [
-        "/packs/js/plugins/jquery-c900d5edd97824629868.js"
+        "/packs/js/plugins/jquery-c81f3a2b8d087cc10a2e.js"
       ],
       "js.map": [
-        "/packs/js/plugins/jquery-c900d5edd97824629868.js.map"
+        "/packs/js/plugins/jquery-c81f3a2b8d087cc10a2e.js.map"
       ]
     },
     "plugins/sb-admin-2": {
       "js": [
-        "/packs/js/plugins/sb-admin-2-7af3b7c4903190276236.js"
+        "/packs/js/plugins/sb-admin-2-c5d3b1521561fb7144b6.js"
       ],
       "js.map": [
-        "/packs/js/plugins/sb-admin-2-7af3b7c4903190276236.js.map"
+        "/packs/js/plugins/sb-admin-2-c5d3b1521561fb7144b6.js.map"
       ]
     }
   },
@@ -69,14 +69,14 @@
   "media/webfonts/fa-solid-900.woff2": "/packs/media/webfonts/fa-solid-900-59edf72a.woff2",
   "media/webfonts/fa-v4compatibility.ttf": "/packs/media/webfonts/fa-v4compatibility-4baccb54.ttf",
   "media/webfonts/fa-v4compatibility.woff2": "/packs/media/webfonts/fa-v4compatibility-afac8956.woff2",
-  "plugins/Chart.js": "/packs/js/plugins/Chart-70fac0058e7fcffc9e04.js",
-  "plugins/Chart.js.map": "/packs/js/plugins/Chart-70fac0058e7fcffc9e04.js.map",
-  "plugins/chart-area-demo.js": "/packs/js/plugins/chart-area-demo-01e258b32f5f1d509c65.js",
-  "plugins/chart-area-demo.js.map": "/packs/js/plugins/chart-area-demo-01e258b32f5f1d509c65.js.map",
-  "plugins/chart-pie-demo.js": "/packs/js/plugins/chart-pie-demo-8a71d48da91bc769833b.js",
-  "plugins/chart-pie-demo.js.map": "/packs/js/plugins/chart-pie-demo-8a71d48da91bc769833b.js.map",
-  "plugins/jquery.js": "/packs/js/plugins/jquery-c900d5edd97824629868.js",
-  "plugins/jquery.js.map": "/packs/js/plugins/jquery-c900d5edd97824629868.js.map",
-  "plugins/sb-admin-2.js": "/packs/js/plugins/sb-admin-2-7af3b7c4903190276236.js",
-  "plugins/sb-admin-2.js.map": "/packs/js/plugins/sb-admin-2-7af3b7c4903190276236.js.map"
+  "plugins/Chart.js": "/packs/js/plugins/Chart-e3aca98fbcaf4473ccc4.js",
+  "plugins/Chart.js.map": "/packs/js/plugins/Chart-e3aca98fbcaf4473ccc4.js.map",
+  "plugins/chart-area-demo.js": "/packs/js/plugins/chart-area-demo-e9519146858230b23116.js",
+  "plugins/chart-area-demo.js.map": "/packs/js/plugins/chart-area-demo-e9519146858230b23116.js.map",
+  "plugins/chart-pie-demo.js": "/packs/js/plugins/chart-pie-demo-9d0c671b6d031413e42b.js",
+  "plugins/chart-pie-demo.js.map": "/packs/js/plugins/chart-pie-demo-9d0c671b6d031413e42b.js.map",
+  "plugins/jquery.js": "/packs/js/plugins/jquery-c81f3a2b8d087cc10a2e.js",
+  "plugins/jquery.js.map": "/packs/js/plugins/jquery-c81f3a2b8d087cc10a2e.js.map",
+  "plugins/sb-admin-2.js": "/packs/js/plugins/sb-admin-2-c5d3b1521561fb7144b6.js",
+  "plugins/sb-admin-2.js.map": "/packs/js/plugins/sb-admin-2-c5d3b1521561fb7144b6.js.map"
 }

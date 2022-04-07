@@ -16937,3 +16937,344 @@ Migrating to CreateComments (20220329082641)
   [1m[36mComment Create (0.6ms)[0m  [1m[32mINSERT INTO "comments" ("name", "commentable_type", "commentable_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "polymorphic2"], ["commentable_type", "Artical"], ["commentable_id", 1], ["created_at", "2022-03-29 08:33:20.318598"], ["updated_at", "2022-03-29 08:33:20.318598"]]
   [1m[36mTRANSACTION (7.9ms)[0m  [1m[36mcommit transaction[0m
   [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."commentable_id" = ? AND "comments"."commentable_type" = ? /* loading for inspect */ LIMIT ?[0m  [["commentable_id", 1], ["commentable_type", "Artical"], ["LIMIT", 11]]
+Started GET "/styles.61209d1d59b7fc29edad.css" for 127.0.0.1 at 2022-04-07 14:40:07 +0500
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Started GET "/main-es2015.e99289da5ddc512c3bd6.js" for 127.0.0.1 at 2022-04-07 14:40:07 +0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/styles.61209d1d59b7fc29edad.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/main-es2015.e99289da5ddc512c3bd6.js"):
+  
+Started GET "/index" for 127.0.0.1 at 2022-04-07 14:40:28 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+Started GET "/demos" for 127.0.0.1 at 2022-04-07 14:40:33 +0500
+Processing by DemosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering demos/index.html.erb within layouts/application
+  [1m[36mDemo Load (0.2ms)[0m  [1m[34mSELECT "demos".* FROM "demos"[0m
+  ↳ app/views/demos/index.html.erb:13
+  Rendered demos/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1043)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/usamamirza/Learning/LearningProject/repo/public/packs
+[Webpacker] DEPRECATION WARNING: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($spacer, 2) or calc($spacer / 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+    ╷
+298 │ $headings-margin-bottom:      $spacer / 2 !default;
+    │                               ^^^^^^^^^^^
+    ╵
+    node_modules/bootstrap/scss/_variables.scss 298:31   @import
+    node_modules/bootstrap/scss/bootstrap.scss 9:9       @import
+    app/javascript/css/plugins/scss/sb-admin-2.scss 5:9  @import
+    app/javascript/css/admin.scss 1:9                    root stylesheet
+
+DEPRECATION WARNING: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($spacer, 2) or calc($spacer / 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+    ╷
+298 │ $headings-margin-bottom:      $spacer / 2 !default;
+    │                               ^^^^^^^^^^^
+    ╵
+    node_modules/bootstrap/scss/_variables.scss 298:31  @import
+    node_modules/bootstrap/scss/bootstrap.scss 9:9      @import
+    app/javascript/css/application.scss 1:9             root stylesheet
+
+DEPRECATION WARNING: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($input-padding-y, 2) or calc($input-padding-y / 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+    ╷
+493 │ $input-height-inner-quarter:            calc(#{$input-line-height * .25em} + #{$input-padding-y / 2}) !default;
+    │                                                                                ^^^^^^^^^^^^^^^^^^^^
+    ╵
+    node_modules/bootstrap/scss/_variables.scss 493:80   @import
+    node_modules/bootstrap/scss/bootstrap.scss 9:9       @import
+    app/javascript/css/plugins/scss/sb-admin-2.scss 5:9  @import
+    app/javascript/css/admin.scss 1:9                    root stylesheet
+
+DEPRECATION WARNING: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($input-padding-y, 2) or calc($input-padding-y / 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+    ╷
+493 │ $input-height-inner-quarter:            calc(#{$input-line-height * .25em} + #{$input-padding-y / 2}) !default;
+    │                                                                                ^^^^^^^^^^^^^^^^^^^^
+    ╵
+    node_modules/bootstrap/scss/_variables.scss 493:80  @import
+    node_modules/bootstrap/scss/bootstrap.scss 9:9      @import
+    app/javascript/css/application.scss 1:9             root stylesheet
+
+DEPRECATION WARNING: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($custom-control-indicator-size, 2) or calc($custom-control-indicator-size / 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+    ╷
+560 │ $custom-switch-indicator-border-radius:         $custom-control-indicator-size / 2 !default;
+    │                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    node_modules/bootstrap/scss/_variables.scss 560:49   @import
+    node_modules/bootstrap/scss/bootstrap.scss 9:9       @import
+    app/javascript/css/plugins/scss/sb-admin-2.scss 5:9  @import
+    app/javascript/css/admin.scss 1:9                    root stylesheet
+
+DEPRECATION WARNING: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($custom-control-indicator-size, 2) or calc($custom-control-indicator-size / 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+    ╷
+560 │ $custom-switch-indicator-border-radius:         $custom-control-indicator-size / 2 !default;
+    │                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    node_modules/bootstrap/scss/_variables.scss 560:49  @import
+    node_modules/bootstrap/scss/bootstrap.scss 9:9      @import
+    app/javascript/css/application.scss 1:9             root stylesheet
+
+DEPRECATION WARNING: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($spacer, 2) or calc($spacer / 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+    ╷
+706 │ $nav-divider-margin-y:              $spacer / 2 !default;
+    │                                     ^^^^^^^^^^^
+    ╵
+    node_modules/bootstrap/scss/_variables.scss 706:37   @import
+    node_modules/bootstrap/scss/bootstrap.scss 9:9       @import
+    app/javascript/css/plugins/scss/sb-admin-2.scss 5:9  @import
+    app/javascript/css/admin.scss 1:9                    root stylesheet
+
+DEPRECATION WARNING: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($spacer, 2) or calc($spacer / 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+    ╷
+711 │ $navbar-padding-y:                  $spacer / 2 !default;
+    │                                     ^^^^^^^^^^^
+    ╵
+    node_modules/bootstrap/scss/_variables.scss 711:37   @import
+    node_modules/bootstrap/scss/bootstrap.scss 9:9       @import
+    app/javascript/css/plugins/scss/sb-admin-2.scss 5:9  @import
+    app/javascript/css/admin.scss 1:9                    root stylesheet
+
+DEPRECATION WARNING: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($spacer, 2) or calc($spacer / 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+    ╷
+706 │ $nav-divider-margin-y:              $spacer / 2 !default;
+    │                                     ^^^^^^^^^^^
+    ╵
+    node_modules/bootstrap/scss/_variables.scss 706:37  @import
+    node_modules/bootstrap/scss/bootstrap.scss 9:9      @import
+    app/javascript/css/application.scss 1:9             root stylesheet
+
+DEPRECATION WARNING: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($spacer, 2) or calc($spacer / 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+    ╷
+711 │ $navbar-padding-y:                  $spacer / 2 !default;
+    │                                     ^^^^^^^^^^^
+    ╵
+    node_modules/bootstrap/scss/_variables.scss 711:37  @import
+    node_modules/bootstrap/scss/bootstrap.scss 9:9      @import
+    app/javascript/css/application.scss 1:9             root stylesheet
+
+WARNING: 58 repetitive deprecation warnings omitted.
+
+WARNING: 61 repetitive deprecation warnings omitted.
+
+
+[Webpacker] Hash: 13ccbcf985c4f5006a5a
+Version: webpack 4.46.0
+Time: 8537ms
+Built at: 04/07/2022 2:40:44 PM
+                                                 Asset      Size                   Chunks                         Chunk Names
+                      js/admin-3bdb4ba207b934c2c371.js  1.74 MiB                    admin  [emitted] [immutable]  admin
+                  js/admin-3bdb4ba207b934c2c371.js.map  1.92 MiB                    admin  [emitted] [dev]        admin
+                js/application-2a9b87b723fe475b04ad.js  1.29 MiB              application  [emitted] [immutable]  application
+            js/application-2a9b87b723fe475b04ad.js.map  1.42 MiB              application  [emitted] [dev]        application
+              js/plugins/Chart-e3aca98fbcaf4473ccc4.js   266 KiB            plugins/Chart  [emitted] [immutable]  plugins/Chart
+          js/plugins/Chart-e3aca98fbcaf4473ccc4.js.map   214 KiB            plugins/Chart  [emitted] [dev]        plugins/Chart
+    js/plugins/chart-area-demo-e9519146858230b23116.js  7.47 KiB  plugins/chart-area-demo  [emitted] [immutable]  plugins/chart-area-demo
+js/plugins/chart-area-demo-e9519146858230b23116.js.map  7.87 KiB  plugins/chart-area-demo  [emitted] [dev]        plugins/chart-area-demo
+     js/plugins/chart-pie-demo-9d0c671b6d031413e42b.js  4.98 KiB   plugins/chart-pie-demo  [emitted] [immutable]  plugins/chart-pie-demo
+ js/plugins/chart-pie-demo-9d0c671b6d031413e42b.js.map  4.86 KiB   plugins/chart-pie-demo  [emitted] [dev]        plugins/chart-pie-demo
+             js/plugins/jquery-c81f3a2b8d087cc10a2e.js   319 KiB           plugins/jquery  [emitted] [immutable]  plugins/jquery
+         js/plugins/jquery-c81f3a2b8d087cc10a2e.js.map   375 KiB           plugins/jquery  [emitted] [dev]        plugins/jquery
+         js/plugins/sb-admin-2-c5d3b1521561fb7144b6.js   316 KiB       plugins/sb-admin-2  [emitted] [immutable]  plugins/sb-admin-2
+     js/plugins/sb-admin-2-c5d3b1521561fb7144b6.js.map   373 KiB       plugins/sb-admin-2  [emitted] [dev]        plugins/sb-admin-2
+                                         manifest.json  3.28 KiB                           [emitted]              
+             media/webfonts/fa-brands-400-b823fc0d.ttf   178 KiB                           [emitted]              
+           media/webfonts/fa-brands-400-ebb7a127.woff2   103 KiB                           [emitted]              
+          media/webfonts/fa-regular-400-0caf4c6c.woff2  23.4 KiB                           [emitted]              
+            media/webfonts/fa-regular-400-0d03b1bb.ttf  59.1 KiB                           [emitted]              
+            media/webfonts/fa-solid-900-59edf72a.woff2   151 KiB                           [emitted]              
+              media/webfonts/fa-solid-900-e615bbcb.ttf   379 KiB                           [emitted]              
+        media/webfonts/fa-v4compatibility-4baccb54.ttf  10.3 KiB                           [emitted]              
+      media/webfonts/fa-v4compatibility-afac8956.woff2  4.84 KiB                           [emitted]              
+Entrypoint admin = js/admin-3bdb4ba207b934c2c371.js js/admin-3bdb4ba207b934c2c371.js.map
+Entrypoint application = js/application-2a9b87b723fe475b04ad.js js/application-2a9b87b723fe475b04ad.js.map
+Entrypoint plugins/chart-area-demo = js/plugins/chart-area-demo-e9519146858230b23116.js js/plugins/chart-area-demo-e9519146858230b23116.js.map
+Entrypoint plugins/chart-pie-demo = js/plugins/chart-pie-demo-9d0c671b6d031413e42b.js js/plugins/chart-pie-demo-9d0c671b6d031413e42b.js.map
+Entrypoint plugins/Chart = js/plugins/Chart-e3aca98fbcaf4473ccc4.js js/plugins/Chart-e3aca98fbcaf4473ccc4.js.map
+Entrypoint plugins/jquery = js/plugins/jquery-c81f3a2b8d087cc10a2e.js js/plugins/jquery-c81f3a2b8d087cc10a2e.js.map
+Entrypoint plugins/sb-admin-2 = js/plugins/sb-admin-2-c5d3b1521561fb7144b6.js js/plugins/sb-admin-2-c5d3b1521561fb7144b6.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {admin} {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {admin} {application} [built]
+[./app/javascript/css/admin.scss] 658 bytes {admin} [built]
+[./app/javascript/css/application.scss] 664 bytes {application} [built]
+[./app/javascript/packs/admin.js] 862 bytes {admin} [built]
+[./app/javascript/packs/application.js] 660 bytes {application} [built]
+[./app/javascript/packs/plugins/Chart.min.js] 262 KiB {plugins/Chart} [built]
+[./app/javascript/packs/plugins/chart-area-demo.js] 3.51 KiB {plugins/chart-area-demo} [built]
+[./app/javascript/packs/plugins/chart-pie-demo.js] 1.03 KiB {plugins/chart-pie-demo} [built]
+[./app/javascript/packs/plugins/jquery.easing.min.js] 4.19 KiB {plugins/jquery} {admin} [built]
+[./app/javascript/packs/plugins/sb-admin-2.min.js] 1.38 KiB {plugins/sb-admin-2} {admin} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./app/javascript/css/admin.scss] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/sass-loader/dist/cjs.js??ref--6-3!./app/javascript/css/admin.scss 747 KiB {admin} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./app/javascript/css/application.scss] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/sass-loader/dist/cjs.js??ref--6-3!./app/javascript/css/application.scss 653 KiB {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {admin} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {admin} {application} {plugins/jquery} {plugins/sb-admin-2} [built]
+    + 19 hidden modules
+
+WARNING in ./app/javascript/packs/plugins/Chart.min.js
+Module not found: Error: Can't resolve 'moment' in '/home/usamamirza/Learning/LearningProject/repo/app/javascript/packs/plugins'
+ @ ./app/javascript/packs/plugins/Chart.min.js
+
+  Rendered shared/_header.html.erb (Duration: 3.7ms | Allocations: 422)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 110)
+  Rendered layout layouts/application.html.erb (Duration: 10664.8ms | Allocations: 6212)
+Completed 200 OK in 10672ms (Views: 10666.7ms | ActiveRecord: 0.2ms | Allocations: 8618)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-07 14:41:08 +0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 134)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.5ms | Allocations: 183)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 2693)
+Completed 200 OK in 11ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 3788)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-07 14:41:10 +0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 43)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.5ms | Allocations: 176)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 2630)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 3014)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-07 14:41:10 +0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 43)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.7ms | Allocations: 176)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 2631)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 3020)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-07 14:41:11 +0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 43)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.6ms | Allocations: 176)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 2630)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 3013)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-07 14:41:12 +0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 43)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.6ms | Allocations: 176)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 16.5ms | Allocations: 2634)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.0ms | Allocations: 3023)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2022-04-07 14:41:13 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/auth.html.erb
+  Rendering users/sessions/new.html.erb within layouts/auth
+  Rendered users/shared/_links.html.erb (Duration: 1.3ms | Allocations: 689)
+  Rendered users/sessions/new.html.erb within layouts/auth (Duration: 293.1ms | Allocations: 354331)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/auth.html.erb (Duration: 298.4ms | Allocations: 356772)
+Completed 200 OK in 329ms (Views: 300.3ms | ActiveRecord: 1.1ms | Allocations: 368804)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2022-04-07 14:41:13 +0500
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/auth.html.erb
+  Rendering users/sessions/new.html.erb within layouts/auth
+  Rendered users/shared/_links.html.erb (Duration: 0.3ms | Allocations: 198)
+  Rendered users/sessions/new.html.erb within layouts/auth (Duration: 1.3ms | Allocations: 818)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/auth.html.erb (Duration: 5.2ms | Allocations: 3082)
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 3617)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-07 14:41:17 +0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 44)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.6ms | Allocations: 183)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 2780)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.0ms | Allocations: 3185)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-07 14:41:17 +0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 43)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.6ms | Allocations: 176)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 2630)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 3010)
+
+
